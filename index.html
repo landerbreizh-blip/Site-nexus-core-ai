@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Core AI | Inteligência de Mercado e Automação</title>
+    <meta name="description"
+        content="Nexus Core AI - Transformação Digital para Imobiliárias e Concessionárias. Respostas em milissegundos e extração de dados estratégicos.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="bg-elements">
+        <div class="glow-circle c1"></div>
+        <div class="glow-circle c2"></div>
+    </div>
+
+    <nav>
+        <a href="#" class="logo">
+            <div class="logo-icon">NC</div>
+            <div class="logo-text">NEXUS<span>CORE</span></div>
+        </a>
+        <div class="nav-links">
+            <a href="#solucoes">Soluções</a>
+            <a href="#inteligencia">Inteligência</a>
+            <a href="#setores">Setores</a>
+            <a href="#contato">Contato</a>
+        </div>
+        <a href="#contato" class="btn-cta">Falar com Especialista</a>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-badge">Inteligência de Mercado de Ultra-Baixa Latência</div>
+        <h1>Não é Apenas um Chat.<br>É a <span>Mente Analítica</span> do seu Negócio.</h1>
+        <p>A Nexus Core IA transforma cada interação em dados estratégicos brutos. Entregamos automação total de vendas
+            e inteligência preditiva para quem não pode perder tempo.</p>
+        <div style="display: flex; gap: 1.5rem;">
+            <a href="#inteligencia" class="btn-cta" style="padding: 1.25rem 3rem; font-size: 1.1rem;">Ver
+                Demonstração</a>
+            <a href="#setores" class="btn-cta"
+                style="background: transparent; border: 1px solid var(--primary); padding: 1.25rem 3rem; font-size: 1.1rem;">Nossos
+                Setores</a>
+        </div>
+    </header>
+
+    <section id="solucoes" class="features">
+        <div class="card">
+            <div class="card-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
+                </svg>
+            </div>
+            <h3>Latência Zero</h3>
+            <p>Nossa arquitetura proprietária (Sem LangChain) entrega respostas em milissegundos. É a velocidade da
+                inteligência humana elevada ao expoente digital.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path>
+                    <path d="M22 12A10 10 0 0 0 12 2v10z"></path>
+                </svg>
+            </div>
+            <h3>Data-Driven Dashboard</h3>
+            <p>Não apenas respondemos, nós coletamos dados. Entregamos um painel vivo que revela tendências de compra,
+                perfil de crédito e desejos do seu público.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                    <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                </svg>
+            </div>
+            <h3>Segurança Enterprise</h3>
+            <p>Utilizamos infraestrutura Supabase com criptografia militar. Seus dados e os dados dos seus leads estão
+                em um cofre digital inviolável.</p>
+        </div>
+    </section>
+
+    <section id="inteligencia" class="analytics-section">
+        <div class="hero-badge">A Visão do Dono</div>
+        <h2 style="font-size: 3.5rem; margin-bottom: 2rem;">Transforme Leads em Estatística.</h2>
+        <p style="color: var(--text-dim); max-width: 800px; margin: 0 auto; font-size: 1.2rem;">Visualize o que seu
+            mercado quer de verdade. Nosso dashboard integrado mostra volumes de busca, motivos de desistência e
+            conversão automática.</p>
+
+        <div class="dashboard-ui">
+            <div class="ui-inner">
+                <div class="ui-nav">
+                    <div class="dot r"></div>
+                    <div class="dot y"></div>
+                    <div class="dot g"></div>
+                    <span
+                        style="margin-left: 20px; font-size: 0.8rem; color: var(--text-dim); letter-spacing: 1px;">NEXUSCORE_ANALYTICS-V2.APP</span>
+                </div>
+                <div class="ui-main">
+                    <div class="ui-stats">
+                        <div class="stat-box">
+                            <div class="stat-label">Leads Processados</div>
+                            <div class="stat-value">12.842</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-label">Taxa de Qualificação</div>
+                            <div class="stat-value">68.4%</div>
+                        </div>
+                        <div class="chart-box" id="chart">
+                            <div class="bar" style="height: 45%;"></div>
+                            <div class="bar" style="height: 65%;"></div>
+                            <div class="bar" style="height: 40%;"></div>
+                            <div class="bar" style="height: 85%;"></div>
+                            <div class="bar" style="height: 55%;"></div>
+                            <div class="bar" style="height: 95%;"></div>
+                            <div class="bar" style="height: 70%;"></div>
+                        </div>
+                    </div>
+                    <div class="sidebar-ui">
+                        <div class="stat-label">Inteligência Preditiva</div>
+                        <div style="margin-top: 1.5rem;">
+                            <div
+                                style="height: 12px; background: rgba(14, 165, 233, 0.2); border-radius: 6px; width: 100%; margin-bottom: 1rem; position: relative; overflow: hidden;">
+                                <div style="width: 72%; height: 100%; background: var(--primary);"></div>
+                            </div>
+                            <p style="font-size: 0.9rem; color: white;">72% Foco em Casa com Piscina</p>
+                        </div>
+                        <div style="margin-top: 1.5rem;">
+                            <div
+                                style="height: 12px; background: rgba(6, 182, 212, 0.2); border-radius: 6px; width: 100%; margin-bottom: 1rem; position: relative; overflow: hidden;">
+                                <div style="width: 48%; height: 100%; background: var(--secondary);"></div>
+                            </div>
+                            <p style="font-size: 0.9rem; color: white;">48% Barreira de Entrada: Preço</p>
+                        </div>
+                        <div
+                            style="margin-top: 3rem; background: rgba(255,255,255,0.05); padding: 1.5rem; border-radius: 15px;">
+                            <p style="font-size: 0.8rem; color: var(--primary); font-weight: 800;">ALERTA DE
+                                OPORTUNIDADE</p>
+                            <p style="font-size: 0.9rem; color: var(--text-dim); margin-top: 0.5rem;">Aumento de 15% na
+                                busca por consórcios de SUVs no Centro.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                style="position: absolute; top: 10%; left: 10%; width: 80%; height: 80%; background: var(--primary); filter: blur(150px); opacity: 0.1; z-index: -1;">
+            </div>
+        </div>
+    </section>
+
+    <section id="setores" class="sectors">
+        <div class="sector-content">
+            <div class="hero-badge">Soluções Verticais</div>
+            <h2>Dominamos seu mercado.</h2>
+            <div class="sector-list">
+                <div class="sector-item">
+                    <div class="sector-circle">01</div>
+                    <div>
+                        <h4>Mercado Imobiliário</h4>
+                        <p>Chega de leads perdidos. Atendemos, qualificamos por crédito e imóvel de interesse, e
+                            entregamos para o corretor apenas a intenção real de compra.</p>
+                    </div>
+                </div>
+                <div class="sector-item">
+                    <div class="sector-circle">02</div>
+                    <div>
+                        <h4>Concessionárias & Consórcios</h4>
+                        <p>A Nexus identifica o perfil do motorista, o valor da entrada disponível e direciona para o
+                            modelo ideal de carro, reduzindo o tempo de fechamento em 60%.</p>
+                    </div>
+                </div>
+                <div class="sector-item">
+                    <div class="sector-circle">03</div>
+                    <div>
+                        <h4>Atendimento 24/7 Autônomo</h4>
+                        <p>Seu lead entra às 3 da manhã? A Nexus acorda, vende e salva no seu CRM antes mesmo de você
+                            ver a notificação.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contato" class="form-card text-center">
+            <h3>Vamos escalar sua operação?</h3>
+            <p>Preencha os dados abaixo e receba um diagnóstico da sua taxa de perda atual de leads.</p>
+            <form>
+                <div class="input-group">
+                    <input type="text" placeholder="Seu Nome Completo" required>
+                </div>
+                <div class="input-group">
+                    <input type="email" placeholder="E-mail Corporativo" required>
+                </div>
+                <div class="input-group">
+                    <select required>
+                        <option value="" disabled selected>SETOR DA EMPRESA</option>
+                        <option value="imobiliaria">Imobiliária</option>
+                        <option value="concessionaria">Concessionária / Veículos</option>
+                        <option value="consorcio">Consórcios</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn-cta"
+                    style="width: 100%; padding: 1.4rem; font-size: 1.1rem; margin-top: 2rem;">🚀 Solicitar Diagnóstico
+                    Gratuito</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-grid">
+            <div>
+                <div class="footer-logo">
+                    <a href="#" class="logo">
+                        <div class="logo-icon">NC</div>
+                        <div class="logo-text">NEXUS<span>CORE</span></div>
+                    </a>
+                </div>
+                <p class="footer-desc">Nexus Core IA: Não vendemos chat, vendemos inteligência. Reduza custos, aumente a
+                    conversão e entenda sua demanda em tempo real.</p>
+            </div>
+            <div>
+                <h4 class="footer-title">Plataforma</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Como Funciona</a></li>
+                    <li><a href="#">Dashboard de Dados</a></li>
+                    <li><a href="#">Segurança & Supabase</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="footer-title">Suporte</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Documentação</a></li>
+                    <li><a href="#">Termos de Uso</a></li>
+                    <li><a href="#">Privacidade</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2026 Nexus Core AI. Todos os direitos reservados. <strong>nexuscoreia.com.br</strong>
+        </div>
+    </footer>
+
+    <!-- JS Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>

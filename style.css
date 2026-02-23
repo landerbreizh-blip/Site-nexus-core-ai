@@ -90,7 +90,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 10%;
+    padding: 0.8rem 2rem;
     position: fixed;
     width: 90%;
     max-width: 1400px;
@@ -107,7 +107,7 @@ nav {
 }
 
 nav.scrolled {
-    padding: 0.8rem 10%;
+    padding: 0.6rem 5%;
     width: 100%;
     max-width: 100%;
     top: 0;
@@ -225,12 +225,14 @@ header.hero {
     margin-bottom: 2rem;
     background: linear-gradient(to bottom, #fff 40%, #94a3b8 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .hero h1 span {
     background: var(--gradient);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 

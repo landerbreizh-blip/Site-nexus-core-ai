@@ -87,12 +87,12 @@ h3,
 
 /* Navigation */
 nav {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
     align-items: center;
-    padding: 0.8rem 2.5rem;
+    padding: 1.2rem 3.5rem;
     position: fixed;
-    width: 92%;
+    width: 94%;
     max-width: 1400px;
     top: 1.5rem;
     left: 50%;
@@ -105,11 +105,11 @@ nav {
     border-radius: 20px;
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     white-space: nowrap;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 nav.scrolled {
-    padding: 0.6rem 5%;
+    padding: 0.8rem 5%;
     width: 100%;
     max-width: 100%;
     top: 0;
@@ -155,7 +155,8 @@ nav.scrolled {
 
 .nav-links {
     display: flex;
-    gap: 1.5rem;
+    gap: 2rem;
+    justify-content: center;
 }
 
 .nav-links a {
@@ -181,16 +182,17 @@ nav.scrolled {
 .btn-cta {
     background: var(--gradient);
     color: white;
-    padding: 0.7rem 1.5rem;
+    padding: 0.6rem 1.4rem;
     border-radius: 12px;
     text-decoration: none;
-    font-weight: 600;
-    font-size: 0.9rem;
+    font-weight: 700;
+    font-size: 0.85rem;
     transition: 0.3s;
     border: none;
     cursor: pointer;
     box-shadow: 0 4px 15px rgba(14, 165, 233, 0.4);
     flex-shrink: 0;
+    text-align: center;
 }
 
 .btn-cta:hover {
